@@ -1,0 +1,14 @@
+#container {
+  margin: 100px 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+}
+
+.box {
+  border: solid 1px blue;
+  background-color: blueviolet;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
